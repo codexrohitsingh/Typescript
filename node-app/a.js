@@ -1,6 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-let x = 12;
-x = "number";
-console.log(x);
+// Problem 1 : Write a function that greets the user given there first name
+function Greeting(firstName) {
+    console.log("Hello " + firstName);
+}
+Greeting("Rohit");
 //# sourceMappingURL=a.js.map
