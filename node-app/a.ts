@@ -24,3 +24,11 @@ function isLegal(age:number):boolean{
 }
 
 console.log(isLegal(18));
+
+// Problem 4: Create a function that takes another function as input and runs it after 1 second
+
+function Run(a:Function){
+    setTimeout(a,1000);
+
+}
+Run(Greeting);

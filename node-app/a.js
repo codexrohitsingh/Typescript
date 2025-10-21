@@ -20,4 +20,9 @@ function isLegal(age) {
     }
 }
 console.log(isLegal(18));
+// Problem 4: Create a function that takes another function as input and runs it after 1 second
+function Run(a) {
+    setTimeout(a, 1000);
+}
+Run(Greeting);
 //# sourceMappingURL=a.js.map
