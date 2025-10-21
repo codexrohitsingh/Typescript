@@ -11,3 +11,16 @@ function Sum(a:number, b:number):number{
 }
 
 console.log(Sum(4,5));
+
+// Problem 3 : Return true or false based on use is 18 plus or not
+
+function isLegal(age:number):boolean{
+    if(age>=18){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+console.log(isLegal(18));

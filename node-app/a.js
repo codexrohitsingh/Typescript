@@ -10,4 +10,14 @@ function Sum(a, b) {
     return a + b;
 }
 console.log(Sum(4, 5));
+// Problem 3 : Return true or false based on use is 18 plus or not
+function isLegal(age) {
+    if (age >= 18) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+console.log(isLegal(18));
 //# sourceMappingURL=a.js.map
