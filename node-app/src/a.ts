@@ -37,3 +37,21 @@ Run(Greeting);
 // Trying it out for version es5
 const greet = (name:String)=>`Hello ${name}`
 console.log(greet("Rohit"))
+
+// Assigning Interfaces
+
+const user = {
+    firstName:'Rohit',
+    lastName:"singh",
+    age:21,
+    email:"rs21rohit@gmail.com",
+}
+
+interface User {
+    firstName:String,
+    lastName:String,
+    age:number,
+    email:String
+
+}
+
