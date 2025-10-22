@@ -32,3 +32,8 @@ function Run(a:Function){
 
 }
 Run(Greeting);
+
+
+// Trying it out for version es5
+const greet = (name:String)=>`Hello ${name}`
+console.log(greet("Rohit"))
