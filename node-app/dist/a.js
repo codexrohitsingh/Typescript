@@ -21,11 +21,25 @@ function isLegal(age) {
 }
 console.log(isLegal(18));
 // Problem 4: Create a function that takes another function as input and runs it after 1 second
-function Run(a) {
-    setTimeout(a, 1000);
-}
-Run(Greeting);
-// Trying it out for version es5
-const greet = (name) => `Hello ${name}`;
-console.log(greet("Rohit"));
+// function Run(a:Function){
+//     setTimeout(a,1000);
+// }
+// Run(Greeting);
+// // Trying it out for version es5
+// const greet = (name:String)=>`Hello ${name}`
+// console.log(greet("Rohit"))
+// Assigning Interfaces
+const user = {
+    firstName: 'Rohit',
+    lastName: "singh",
+    age: 21,
+    email: "rs21rohit@gmail.com",
+};
+console.log("How to assign types to object");
+const use = {
+    firstName: "Rohit",
+    lastName: "Singh",
+    age: 21,
+};
+console.log(use.firstName);
 //# sourceMappingURL=a.js.map

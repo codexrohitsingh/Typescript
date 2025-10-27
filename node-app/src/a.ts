@@ -27,16 +27,16 @@ console.log(isLegal(18));
 
 // Problem 4: Create a function that takes another function as input and runs it after 1 second
 
-function Run(a:Function){
-    setTimeout(a,1000);
+// function Run(a:Function){
+//     setTimeout(a,1000);
 
-}
-Run(Greeting);
+// }
+// Run(Greeting);
 
 
-// Trying it out for version es5
-const greet = (name:String)=>`Hello ${name}`
-console.log(greet("Rohit"))
+// // Trying it out for version es5
+// const greet = (name:String)=>`Hello ${name}`
+// console.log(greet("Rohit"))
 
 // Assigning Interfaces
 
@@ -54,4 +54,20 @@ interface User {
     email:String
 
 }
+console.log("How to assign types to object")
 
+
+// const use = {
+// firstName:"Rohit",
+// lastName:"Singh",
+// age:21,
+
+// }
+
+// console.log(use.firstName)
+
+interface use{
+firstName :String,
+lastName:String,
+age:Number,
+}
