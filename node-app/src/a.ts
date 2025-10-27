@@ -80,3 +80,7 @@ interface user{
 
 }
 
+interface usecase{
+    firstUseCase:String,
+    
+}
