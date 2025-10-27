@@ -36,10 +36,4 @@ const user = {
     email: "rs21rohit@gmail.com",
 };
 console.log("How to assign types to object");
-const use = {
-    firstName: "Rohit",
-    lastName: "Singh",
-    age: 21,
-};
-console.log(use.firstName);
 //# sourceMappingURL=a.js.map

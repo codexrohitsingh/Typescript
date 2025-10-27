@@ -76,5 +76,7 @@ interface user{
     firstName:String,
     lastName:String,
     age:Number,
+    answer:String,
 
 }
+
