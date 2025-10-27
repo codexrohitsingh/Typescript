@@ -71,3 +71,10 @@ firstName :String,
 lastName:String,
 age:Number,
 }
+
+interface user{
+    firstName:String,
+    lastName:String,
+    age:Number,
+
+}
